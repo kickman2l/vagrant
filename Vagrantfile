@@ -40,8 +40,9 @@ config.vm.define "tomcat" do |tomcat|
     tomcat.vm.provider "virtualbox" do |vb|
         vb.memory = "4096"
     end
-####
+#### including script
     tomcat.vm.provision "shell", path: "tomcat.sh"
+####
 end
 #end tomcat machine
 
