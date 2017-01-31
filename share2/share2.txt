@@ -1,0 +1,1 @@
+Here file from HOST machine share2 directory!

@@ -1,0 +1,79 @@
+31-Jan-2017 14:17:36.409 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.9
+31-Jan-2017 14:17:36.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2016 20:18:12 UTC
+31-Jan-2017 14:17:36.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.9.0
+31-Jan-2017 14:17:36.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+31-Jan-2017 14:17:36.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            2.6.32-642.13.1.el6.x86_64
+31-Jan-2017 14:17:36.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Jan-2017 14:17:36.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.121-0.b13.el6_8.x86_64/jre
+31-Jan-2017 14:17:36.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+31-Jan-2017 14:17:36.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Jan-2017 14:17:36.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/vagrant/apache-tomcat-8.5.9
+31-Jan-2017 14:17:36.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/vagrant/apache-tomcat-8.5.9
+31-Jan-2017 14:17:36.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/vagrant/apache-tomcat-8.5.9/conf/logging.properties
+31-Jan-2017 14:17:36.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Jan-2017 14:17:36.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+31-Jan-2017 14:17:36.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+31-Jan-2017 14:17:36.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/vagrant/apache-tomcat-8.5.9
+31-Jan-2017 14:17:36.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/vagrant/apache-tomcat-8.5.9
+31-Jan-2017 14:17:36.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/vagrant/apache-tomcat-8.5.9/temp
+31-Jan-2017 14:17:36.414 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+31-Jan-2017 14:17:36.486 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+31-Jan-2017 14:17:36.499 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Jan-2017 14:17:36.501 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+31-Jan-2017 14:17:36.502 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Jan-2017 14:17:36.511 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 438 ms
+31-Jan-2017 14:17:36.537 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+31-Jan-2017 14:17:36.538 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.9
+31-Jan-2017 14:17:36.546 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/vagrant/apache-tomcat-8.5.9/webapps/docs
+31-Jan-2017 14:17:36.862 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/vagrant/apache-tomcat-8.5.9/webapps/docs has finished in 315 ms
+31-Jan-2017 14:17:36.862 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/vagrant/apache-tomcat-8.5.9/webapps/host-manager
+31-Jan-2017 14:17:36.907 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/vagrant/apache-tomcat-8.5.9/webapps/host-manager has finished in 45 ms
+31-Jan-2017 14:17:36.908 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/vagrant/apache-tomcat-8.5.9/webapps/examples
+31-Jan-2017 14:17:37.176 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/vagrant/apache-tomcat-8.5.9/webapps/examples has finished in 268 ms
+31-Jan-2017 14:17:37.177 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/vagrant/apache-tomcat-8.5.9/webapps/manager
+31-Jan-2017 14:17:37.192 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/vagrant/apache-tomcat-8.5.9/webapps/manager has finished in 14 ms
+31-Jan-2017 14:17:37.192 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/vagrant/apache-tomcat-8.5.9/webapps/ROOT
+31-Jan-2017 14:17:37.201 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/vagrant/apache-tomcat-8.5.9/webapps/ROOT has finished in 9 ms
+31-Jan-2017 14:17:37.204 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+31-Jan-2017 14:17:37.208 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+31-Jan-2017 14:17:37.209 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 698 ms
+31-Jan-2017 15:45:51.466 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.9
+31-Jan-2017 15:45:51.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 5 2016 20:18:12 UTC
+31-Jan-2017 15:45:51.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.9.0
+31-Jan-2017 15:45:51.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+31-Jan-2017 15:45:51.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            2.6.32-642.13.1.el6.x86_64
+31-Jan-2017 15:45:51.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+31-Jan-2017 15:45:51.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.121-0.b13.el6_8.x86_64/jre
+31-Jan-2017 15:45:51.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+31-Jan-2017 15:45:51.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+31-Jan-2017 15:45:51.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/vagrant/tomcat
+31-Jan-2017 15:45:51.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/vagrant/tomcat
+31-Jan-2017 15:45:51.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/vagrant/tomcat/conf/logging.properties
+31-Jan-2017 15:45:51.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+31-Jan-2017 15:45:51.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+31-Jan-2017 15:45:51.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+31-Jan-2017 15:45:51.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/vagrant/tomcat
+31-Jan-2017 15:45:51.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/vagrant/tomcat
+31-Jan-2017 15:45:51.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/vagrant/tomcat/temp
+31-Jan-2017 15:45:51.470 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+31-Jan-2017 15:45:51.530 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+31-Jan-2017 15:45:51.543 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Jan-2017 15:45:51.545 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+31-Jan-2017 15:45:51.546 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+31-Jan-2017 15:45:51.561 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 443 ms
+31-Jan-2017 15:45:51.587 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+31-Jan-2017 15:45:51.588 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.9
+31-Jan-2017 15:45:51.605 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/vagrant/tomcat/webapps/docs
+31-Jan-2017 15:46:24.249 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [32,315] milliseconds.
+31-Jan-2017 15:46:24.280 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/vagrant/tomcat/webapps/docs has finished in 32,675 ms
+31-Jan-2017 15:46:24.281 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/vagrant/tomcat/webapps/host-manager
+31-Jan-2017 15:46:24.332 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/vagrant/tomcat/webapps/host-manager has finished in 51 ms
+31-Jan-2017 15:46:24.332 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/vagrant/tomcat/webapps/examples
+31-Jan-2017 15:46:24.579 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/vagrant/tomcat/webapps/examples has finished in 247 ms
+31-Jan-2017 15:46:24.579 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/vagrant/tomcat/webapps/manager
+31-Jan-2017 15:46:24.612 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/vagrant/tomcat/webapps/manager has finished in 33 ms
+31-Jan-2017 15:46:24.612 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/vagrant/tomcat/webapps/ROOT
+31-Jan-2017 15:46:24.623 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/vagrant/tomcat/webapps/ROOT has finished in 11 ms
+31-Jan-2017 15:46:24.630 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+31-Jan-2017 15:46:24.635 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+31-Jan-2017 15:46:24.650 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 33088 ms
